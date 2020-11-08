@@ -20,3 +20,14 @@ c=float(input('请输入c:'))
 x1=((-b+math.sqrt(b**2-4*a*c))/(2*a))
 x2=((-b-math.sqrt(b**2-4*a*c))/(2*a))
 print('x1=',x1,'\t','x2',x2)
+
+
+n=int(input())
+jie=1
+sum=0
+i=1
+while n>=i:
+    jie=jie*i
+    sum=sum+jie
+    i=i+1
+    print(sum)
